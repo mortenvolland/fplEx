@@ -1,4 +1,4 @@
-from models import report, api
+from src import report, api
 
 ## Params
 sunday_league = "520415" # League ID
@@ -12,4 +12,4 @@ def fpl(league_id):
     report.gen_report(session, league_id)
 
 
-fpl(sunday_league)
+fpl(kollektivet)

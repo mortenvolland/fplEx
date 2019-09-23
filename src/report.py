@@ -1,5 +1,5 @@
 ## Import modules
-import models.stats as stats
+import src.stats as stats
 
 ## Import packages
 from pprint import pprint
